@@ -12,7 +12,6 @@ app.use(bodyparser.urlencoded({extended: true}))
 app.use(bodyparser.json())
 
 app.get('/', (req, res) => res.render('index'))
-app.get('/messages', (req, res) => res.render('list'))
 app.get('/messages', (req, res) => res.render('form'))
 
 app.listen(4000, () => console.log('http://localhost:4000'))
