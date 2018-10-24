@@ -1,5 +1,5 @@
 const React = require('react')
-const Form = require('./form')
+const Form = require('./components/form')
 
 
 const Page = () =>
