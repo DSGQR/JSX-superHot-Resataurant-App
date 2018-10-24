@@ -1,6 +1,4 @@
 const React = require('react')
-const Form = require('./components/form')
-
 
 const Page = () =>
     <html lang="en">
@@ -19,7 +17,7 @@ const Page = () =>
                     <h2 className='text-center'>We only have 5 tables! Book your seat before they all are gone!</h2>
                     <br />
                     <div className='text-center'>
-                        <a href='/reservations'><button className='btn btn-lg btn-primary'><span className='fa fa-list-alt' /> View Reservations</button></a>
+                        <a href='/view'><button className='btn btn-lg btn-primary'><span className='fa fa-list-alt' /> View Reservations</button></a>
                         <a href='/reserve'><button className='btn btn-lg btn-danger'><span className='fa fa-credit-card' /> Make Reservation</button></a>
                     </div>
                 </div>
