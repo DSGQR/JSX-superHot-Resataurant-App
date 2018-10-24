@@ -1,0 +1,27 @@
+{
+  "name": "JSX-superHot-Resataurant-App",
+  "version": "1.0.0",
+  "description": "In-Class Activity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSGQR/JSX-superHot-Resataurant-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSGQR/JSX-superHot-Resataurant-App/issues"
+  },
+  "homepage": "https://github.com/DSGQR/JSX-superHot-Resataurant-App#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-react-views": "^0.10.5",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
